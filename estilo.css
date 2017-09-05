@@ -85,6 +85,42 @@ header #login input{
   background-color: #ffffff;
 }
 /* FIN DE HEADER */
+/* Margen*/
+.imagen{
+  float: left;
+  width: 300px;
+  border:5px solid #000;
+  padding:10px;
+  margin:5px;
+}
+.styleH1{
+  float: none;
+  color: gray;
+  font-family: "fantasy", "Arial";
+}
+.styleP{
+  font-family: "sans-serif", "Times New Roman";
+}
+.boton{
+  text-decoration: none;
+  padding: 8px;
+  font-weight: 200;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+  float: inherit;
+  width: 20%;
+  text-align: center;
+  margin-right: 3%;
+}
+.boton:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+
+
 /*footer*/
  #pie{
 	width: 1900px;

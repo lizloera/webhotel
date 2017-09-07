@@ -7,29 +7,32 @@
 </head>
 <body>
 	<header>
-    <section id="logo">
-      <a href="#"><img src="resources/logo2.jpg" alt="logo"></a>
-    </section>
-    <nav id="menu">
-      <a href="#"><img src="resources/huella.png" alt="blog"></a>
-      <a href="#"><img src="resources/huella.png" alt="reserva"></a>
-      <a href="#"><img src="resources/huella.png" alt="tienda"></a>
-      <a href="#"><img src="resources/huella.png" alt="contacto"></a>
-      <br/>
-			<ul style="list-style-type:none">
-	      <li><a href="#">BLOG </a></li>
-	      <li><a href="#">RESERVA </a></li>
-	      <li><a href="#">TIENDA </a></li>
-	      <li><a href="#">CONTACTO </a></li>
-			</ul>
-    </nav>
-    <section id="login">
-      Registrate o identificate<br/>
-      Usuario: <input type="text" name="user"><br/>
-      Contraseña: <input type="password" name="password"><br/>
-      <a class="boton_registro" href="#">Registro</a>
-      <a class="boton_registro" href="#">Entrar</a>
-    </section>
+    <div class="logo">
+      <a href="#"><img src="resources/logo2.jpg" alt="hotel perruno" class="imgredonda"></a>
+    </div>
+		<div class="menu">
+	    <nav>
+				<ul>
+		      <li><figure><a href="#"><img src="resources/huella.png" alt="blog" class="iconomenu">
+						<span></br>Blog</span></a></figure></li>
+		      <li><figure><a href="#"><img src="resources/huella.png" alt="reserva" class="iconomenu">
+						<span></br>Reservaciones</span></a></figure></li>
+		      <li><figure><a href="#"><img src="resources/huella.png" alt="tienda" class="iconomenu">
+						<span></br>Tienda</span></a></figure></li>
+		      <li><figure><a href="#"><img src="resources/huella.png" alt="contacto" class="iconomenu">
+						<span></br>Contacto</span></a></figure></li>
+		    </ul>
+	    </nav>
+		</div>
+    <div class="login">
+      <span><strong>Registrate o identificate</strong></span><br/>
+      <span>Usuario: </span><input type="text" name="user"><br/>
+      <span>Contraseña: </span> <input type="password" name="password">
+			<div class="botones">
+	      <a class="boton" href="#">Registro</a>
+	      <a class="boton" href="#">Entrar</a>
+			</div>
+    </div>
   </header>
 
 	<!--SECCION PRINCIPAL-->

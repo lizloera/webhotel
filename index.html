@@ -2,50 +2,92 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<title>Hotel Perruno</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Hotel Perruno </title>
 	<link rel="stylesheet" href="estilo.css"/>
+	<script src="https://use.fontawesome.com/9fe2ae10ca.js"></script>
 </head>
 <body>
 	<header>
-		<section>Hotel perruno</section>
-		<nav>Menu</nav>
+		<section id="logo">
+      <a href="#"><img src="resources/logo2.jpg" alt="logo"></a>
+    </section>
+    <nav id="menu">
+			<!--tiene que ser un menu desplegable , trabajar bien lcas clases y no hacer clases por nomas
+		.estiloa nav a {}-->
+      <a class="estiloa" href="#"><img src="resources/huella.png" alt="blog"></a>
+      <a href="#"><img src="resources/huella.png" alt="reserva"></a>
+      <a href="#"><img src="resources/huella.png" alt="tienda"></a>
+      <a href="#"><img src="resources/huella.png" alt="contacto"></a>
+			<!--el br y el ul style con css-->
+      <br/>
+			<ul style="list-style-type:none">
+	      <li><a href="#">BLOG </a></li>
+	      <li><a href="#">RESERVA </a></li>
+	      <li><a href="#">TIENDA </a></li>
+	      <li><a href="#">CONTACTO </a></li>
+			</ul>
+    </nav>
+    <section id="login">
+      Registrate o identificate<br/>
+      Usuario: <input type="text" name="user"><br/>
+      Contraseña: <input type="password" name="password"><br/>
+			<!--el registro seria un enlace y entrar seria un botton-->
+      <a class="boton_registro" href="#">Registro</a>
+      <a class="boton_registro" href="#">Entrar</a>
+    </section>
 	</header>
 
 	<!--SECCION PRINCIPAL-->
-	<main>
-		<aside class=""> </aside>
-		<div class=""> </div>
+	<div >
+		<section >
+			<img class="imagen" src="http://static.vix.com/es/sites/default/files/styles/large/public/imj/m/mascota-viajes-1.jpg?itok=iQew-wlm" >
+			<section >
+				<article class="">
+					<h1 class="styleH1">¿Qué hacer con mi mascota cuando me voy de vacaciones?</h1>
+					<!--no usar br-->
+					<br>
+					<p class="styleP">Viajar con nuestra mascota o no se ha convertido en el gran dilema de muchos viajeros que se resisten a separarse de su querido compañero.
+													Es por ello que, antes de gastar más de la cuenta o arrepentirnos sea cual sea la decisión final, lo mejor será que eches un vistazo a estas opciones respecto a qué hacer con tu mascota si te vas de vacaciones.</p>
+					<button class="boton" type="button" name="button">Submit</button>
+				</article>
+			</section>
+		</section>
+	</div>
+	<footer class="pie">
+		<section class="descubre">
+				 <h3 class="estiloh3">Descubre</h3>
+				 <p>Si tienes que salir unos días de la ciudad y no sabes con quién dejar a tu perro, te ofrecemos el servicio de Alojamiento. 
+				 Ofreciendo un servicio cálido y familiar.</p>
+				 <ul>
+				 <li><a href="#">Blog</a></li>
+				 <li><a href="#">Terminos y condiciones</a></li>
+				 </ul>
+		</section>
+		<section class="ubi">
+			<h3 class="estiloh3">Ubicación</h3>
+			<address>Olimpica y Boulevard General Marcelino García Barragán 1421, Olímpica, 44430 San Pedro Tlaquepaque, Jal.</address>
+		</section>
+		<section class="aten">
+			<h3 class="estiloh3">Atención a clientes</h3>
+			<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> hotelperruno@gmail.com </a></p>
+			<p><i class="fa fa-phone" aria-hidden="true"></i> Tel: (55) 31440436 </p>
+		</section>
+		<section class="unete">
+			<h3 class="estiloh3">Únete a nosotros</h3>
+			<p><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i> <a href="#">  hotelPerruno </a></p>
+			<p><i class="fa fa-youtube fa-lg" aria-hidden="true"></i> <a href="#"> youtube.com/hotelP</a></p>
 
-	</main>
-	<footer id="pie">
-		<section id="descubre">
-			<article>
-				 <h3>Descubre</h3>
-				 <p>Nosotros somos una pagina dedicada al cuidado de su perro mientras usted pasa unas merecidas vacaciones</p>
-			</article>
 		</section>
-		<section id="ubi">
-			<h3>Ubicación</h3>
-			<p>Olimpica y Boulevard General Marcelino García Barragán 1421, Olímpica, 44430 San Pedro Tlaquepaque, Jal.</p>
-		</section>
-		<section id="aten">
-			<h3>Atención a clientes</h3>
-			<p>hotelperruno@gmail.com <br> Tel (55) 31440436 </p>
-		</section>
-		<section id="unete">
-			<h3>Únete a nosotros</h3>
-			<p>fb/hotelPerruno <br> youtube.com/hotelP</p>
-			
-		</section>
-		
+
 		<section>
-			<img src="logo.jpg" class="imgredonda"/>
+		<figure>
+			<img src="resources/logo.jpg" class="imgredonda">
+		</figure>
 		</section>
-		<footer id="pie2">
-			<small>Todos los derechos reservados Hotel Perruno C.V.</small>
-		</footer>		
-	</footer>
-
-	
+		<div class="derechos">
+			<p><i class="fa fa-paw" aria-hidden="true"></i> Todos los derechos reservados Hotel Perruno C.V. © 2017</p>
+		</div>
+	</footer>	
 </body>
 </html>

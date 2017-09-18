@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Kurale|Libre+Franklin|Marcellus+SC');
 /*INICIO DEL HEADER*/
 *{
   border: 0;
@@ -6,85 +7,224 @@
   padding: 0;
 }
 header{
-  background: #F4A460;
-  height: 20%;
+  background: -webkit-radial-gradient(center, circle, #fe9a2e, #ff8000);
+  background: -moz-radial-gradient(center,circle,#fe9a2e, #ff8000);
   width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-  float: left;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-header #logo{
-  background: #F4A460;
-  width: 15%;
-  float: left;
-  text-align: center;
+/*DIVS DEL MENU*/
+.identifica{
+  /*Identifica guarda datos y logo horizontalmente*/
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
-header #logo img{
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  max-width: 50%;
-  max-height: 50%;
-  border-radius: 50%;
-  background-size: auto;
+.datos{
+  /*Datos guarda el nombre, slogan y direccion verticalmente*/
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-header #logo a{
-  background: #F4A460;
+.logo{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
-header #menu{
-  background: #F4A460;
-  width: 60%;
-  display: inline-block;
-  text-align: left;
+.nombre{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: 'Marcellus SC', serif;
+  font-size: 2.5em;
 }
-header #menu img{
-  background: #F4A460;
-  text-align:center;
-  margin-left: 2%;
-  margin-right: 2%;
-  width: 8%;
+.slogan{
+  width: 100%;
+  height: 20%
+  display: flex;
+  align-items: center;
+  font-family: 'Kurale', serif;
+  font-size: 1.4em;
 }
-header #menu li{
-  background: #F4A460;
-  text-align: center;
-  margin-left: 2%;
-  margin-right: 2%;
-  text-align:center;
-  display: inline-block;
-  width: 8%;
+.direccion{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-family: 'kurale', cursive;
+}
+.barramenu{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Libre Franklin', serif;
+  background: #f7be81;
+}
+.menu ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu a{
+  display: block;
+  color: black;
+  padding-left: 1em;
+  font-size: 150%;
   text-decoration: none;
+  background: #f7be81;
 }
-header #login{
-  background: #F4A460;
-  width: 25%;
-  float: right;
-  font-size: 20px;
+.menu a:hover{
+  font-size: 160%;
+  font-weight: bold;
+  color: darkslateblue;
 }
-header #login input{
-  float: right;
-  margin-right: 3%;
-  width: 65%;
+.menu ul li ul{
+  display: none;
 }
-.boton_registro{
+.menu ul li a:hover + ul,
+.menu ul li ul:hover{
+  display: block;
+  position: absolute;
+  min-width: 10%;
+}
+.imgmenu{
+  margin-left: 60%;
+	border-radius: 50%;
+  height: 100%;
+  width: 40%;
+}
+.original{
+  white-space: pre;
+}
+/* FIN DE HEADER */
+/* Margen*/
+.imagen{
+  float: left;
+  width: 300px;
+  border:5px solid #000;
+  padding:10px;
+  margin:5px;
+}
+.styleH1{
+  float: none;
+  color: gray;
+  font-family: "fantasy", "Arial";
+}
+.styleP{
+  font-family: "sans-serif", "Times New Roman";
+}
+.boton{
   text-decoration: none;
   padding: 8px;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 16px;
   color: #ffffff;
   background-color: #1883ba;
   border-radius: 6px;
   border: 2px solid #0016b0;
-  float: right;
+  float: inherit;
   width: 20%;
   text-align: center;
   margin-right: 3%;
 }
-.boton_registro:hover{
+.boton:hover{
   color: #1883ba;
   background-color: #ffffff;
 }
-/* FIN DE HEADER */
+
+
+/*footer*/
+ #pie{
+	width: 1900px;
+	height: 280px;
+	float: :left;
+	clear: both;
+	margin-top: 50px;
+	box-shadow: 5px 5px 5px #000;
+		-moz-box-shadow: 5px 5px 5px #000;
+		-webkit-box-shadow: 5px 5px 5px #000;
+	border-radius: 5px;
+	/*ckground: #FE2E64;*/
+	background: -webkit-radial-gradient(center, circle, #FA5882, #FE2E64);
+}
+footer section {
+	width: 310px;
+	float: left;
+	padding: 20px;
+}
+footer #descubre{
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #FAFAFA;
+	text-align: justify;
+	line-height: 20px;
+}
+footer #descubre h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+footer #ubi{
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #FAFAFA;
+	text-align: justify;
+	line-height: 20px;
+}
+footer #ubi h3{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+footer #aten{
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #FAFAFA;
+	text-align: justify;
+	line-height: 20px;
+}
+footer #aten h3{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+footer #unete{
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	color: #FAFAFA;
+	text-align: justify;
+	line-height: 20px;
+}
+footer #unete h3{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.imgredonda{
+	height: 250px;
+	width: 280px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	background-size: 100% auto;
+}
+#pie2{
+	border-radius: 5px;
+	clear: both;
+	margin-top: 50px;
+	font-family: Arial, Helvetica;
+	background: -webkit-radial-gradient(center, circle, #FE9A2E, #FF8000);
+}
+}
 /* Margen*/
 .imagen{
   float: left;

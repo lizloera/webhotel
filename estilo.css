@@ -15,12 +15,9 @@ header{
   flex-direction: column;
   justify-content: space-around;
 }
-.barra{
-  width: 100%;
-  background: gray;
-}
 /*DIVS DEL MENU*/
 .identifica{
+  /*Identifica guarda datos y logo horizontalmente*/
   width: 80%;
   height: 60%;
   margin-left: 10%;
@@ -30,22 +27,17 @@ header{
   justify-content: center;
 }
 .datos{
+  /*Datos guarda el nombre, slogan y direccion verticalmente*/
   width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.iconos{
+.logo{
   width: 30%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 1.8em;
-}
-.logo{
-  width: auto;
-  height: 95%;
+  flex-direction: row;
 }
 .nombre{
   width: 100%;
@@ -80,20 +72,6 @@ header{
   font-family: 'Libre Franklin', serif;
   background: #f7be81;
 }
-/*div ul{
-  list-style-type: none;
-  display: flex;
-  font-size: 220%;
-  font-family: monospace;
-}
-nav li a{
-  color:#000;
-  text-decoration:none;
-    margin-right: 20px;
-}
-nav li a:hover{
-  font-weight: bold;
-}*/
 .menu ul{
   display: flex;
   padding: 0;
@@ -123,21 +101,10 @@ nav li a:hover{
   min-width: 10%;
 }
 .imgmenu{
-	height: 80%;
-	width: auto;
+  margin-left: 60%;
 	border-radius: 50%;
-}
-.login{
-  width: 20%;
-  height: 10%;
-  display: flex;
-  flex-direction: column;
-}
-.botones{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
+  height: 100%;
+  width: 40%;
 }
 .original{
   white-space: pre;

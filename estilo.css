@@ -149,6 +149,7 @@ header #login input{
   background-color: #FBEFEF;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 .intro{
@@ -177,7 +178,9 @@ header #login input{
 .servicios{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
   height: 10%;  
 
 }
@@ -187,6 +190,9 @@ header #login input{
 main section{
   width: 30%;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   
 }
 .estilotextoS{
@@ -257,6 +263,7 @@ footer p{
 }
 a { 
   color: white;
+  text-decoration: none;
 }
 .imgredonda{
   width: 100%;

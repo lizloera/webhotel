@@ -2,50 +2,131 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Hotel Perruno</title>
 	<link rel="stylesheet" href="estilo.css"/>
+	<script src="https://use.fontawesome.com/9fe2ae10ca.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Kurale|Libre+Franklin|Marcellus+SC" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<section>Hotel perruno</section>
-		<nav>Menu</nav>
+		<section id="logo">
+      <a href="#"><img src="resources/logo2.jpg" alt="logo"></a>
+    </section>
+    <nav id="menu">
+			<!--tiene que ser un menu desplegable , trabajar bien lcas clases y no hacer clases por nomas
+		.estiloa nav a {}-->
+      <a class="estiloa" href="#"><img src="resources/huella.png" alt="blog"></a>
+      <a href="#"><img src="resources/huella.png" alt="reserva"></a>
+      <a href="#"><img src="resources/huella.png" alt="tienda"></a>
+      <a href="#"><img src="resources/huella.png" alt="contacto"></a>
+			<!--el br y el ul style con css-->
+      <br/>
+			<ul style="list-style-type:none">
+	      <li><a href="#">BLOG </a></li>
+	      <li><a href="#">RESERVA </a></li>
+	      <li><a href="#">TIENDA </a></li>
+	      <li><a href="#">CONTACTO </a></li>
+			</ul>
+    </nav>
+    <section id="login">
+			<!--no dejar texto suelto usar etiqueta span, no usar br aqui-->
+      Registrate o identificate<br/>
+      Usuario: <input type="text" name="user"><br/>
+      Contraseña: <input type="password" name="password"><br/>
+			<!--el registro seria un enlace y entrar seria un botton-->
+      <a class="boton_registro" href="#">Registro</a>
+      <a class="boton_registro" href="#">Entrar</a>
+    </section>
 	</header>
+<main>
+	<div class="slider">
+		<ul>
+			<li><img src="img/s1.jpg" alt=""></li>
+			<li><img src="img/s2.jpg" alt=""></li>
+			<li><img src="img/s5.jpg" alt=""></li>
+			<li><img src="img/s3.jpg" alt=""></li>
+		</ul>
+	</div>
 
-	<!--SECCION PRINCIPAL-->
-	<main>
-		<aside class=""> </aside>
-		<div class=""> </div>
+	<div class="contenido">
+		<h2 class="letrakurale">tu amigo merece lo mejor</h2>
+		<h1 class="letramarcesc">UN HOTEL EXCLUSIVO PARA PERROS</h1>
+	</div>
 
-	</main>
-	<footer id="pie">
-		<section id="descubre">
-			<article>
-				 <h3>Descubre</h3>
-				 <p>Nosotros somos una pagina dedicada al cuidado de su perro mientras usted pasa unas merecidas vacaciones</p>
-			</article>
-		</section>
-		<section id="ubi">
-			<h3>Ubicación</h3>
-			<p>Olimpica y Boulevard General Marcelino García Barragán 1421, Olímpica, 44430 San Pedro Tlaquepaque, Jal.</p>
-		</section>
-		<section id="aten">
-			<h3>Atención a clientes</h3>
-			<p>hotelperruno@gmail.com <br> Tel (55) 31440436 </p>
-		</section>
-		<section id="unete">
-			<h3>Únete a nosotros</h3>
-			<p>fb/hotelPerruno <br> youtube.com/hotelP</p>
-			
-		</section>
-		
-		<section>
-			<img src="logo.jpg" class="imgredonda"/>
-		</section>
-		<footer id="pie2">
-			<small>Todos los derechos reservados Hotel Perruno C.V.</small>
-		</footer>		
-	</footer>
+	<div class="contenido1">
+		<img src="img/p7.png">
+		<p class="intro">El hotel Perruno esta ubicado en Guadalajara, Jalisco.
+		¡Cuidamos a tu moscota mientras te vas de vacaciones!
+		Podrá irse de viaje con tranquilidad y poder ver a su amigo en un click
+	    <a href="#" class="boton_agenda">Agenda ahora </a></p>
+	</div>
 
-	
+	<div class="servicios">
+		<section class="textoservicios">
+			<img src="img/p9.png">
+			<h3 class="estilotextoS">HOTEL</h3>
+			<ul>
+				<li>Contamos con diferentes tipos de habitaciones: bronze, gold y platinum.
+				</li>
+				<li>Parques de juego exteriores con túneles caninos.</li>
+				<li>Personal capacitado</li>
+				<li>Nuestras intalaciones cuentan con una superficie de 3,000 metros cuadrados</li>
+			</ul>
+		</section>
+
+		<section class="textoservicios">
+			<img src="img/p8.png">
+			<h3 class="estilotextoS">PISCINA INTERIOR</h3>
+			<p>Piscina exterior climatizada para natación /ejercicio acuático.
+			“Los servicios que presta este centro no tienen carácter terapéutico ni de tratamiento de enfermedades o dolencias de los animales, debiendo acudir para ello a su veterinario”.</p>
+		</section>
+
+		<section class="textoservicios">
+			<img src="img/p10.png">
+			<h3 class="estilotextoS">SALUD</h3>
+			<p>¡Tu amigo estará protegido por una cobertura de servicios veterinarios durante su estadia!</p>
+		</section>	
+	</div>
+</main>
+
+<footer class="pie">
+	<section class="descubre">
+		 <h3 class="estiloh3">Descubre</h3>
+		 	<p>Si tienes que salir unos días de la ciudad y no sabes con quién dejar a tu perro, te ofrecemos el servicio de Alojamiento. 
+			 Ofreciendo un servicio cálido y familiar.</p>
+		 <ul>
+			 <li><a href="#">Nosotros</a></li>
+			 <li><a href="#">Terminos y condiciones</a></li>
+		 </ul>
+	</section>
+
+	<section class="ubi">
+		<h3 class="estiloh3">Ubicación</h3>
+		<address>Olimpica y Boulevard General Marcelino García Barragán 1421, Olímpica, 44430 San Pedro Tlaquepaque, Jal.</address>
+	</section>
+
+	<section class="aten">
+		<h3 class="estiloh3">Atención a clientes</h3>
+			<p><i class="fa fa-envelope" aria-hidden="true"></i><span> hotelperruno@gmail.com </span></p>
+			<p><i class="fa fa-phone" aria-hidden="true"></i> Tel: (55) 31440436 </p>
+	</section>
+
+	<section class="unete">
+		<h3 class="estiloh3">Únete a nosotros</h3>
+		<p><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i> <a href="https://www.facebook.com/hotelPerrunoGdl/">  hotelPerrunoGDL </a></p>
+		<p><i class="fa fa-youtube fa-2x" aria-hidden="true"></i> <a href="https://youtu.be/p4FBHmIkGBQ"> youtube.com/hotelPerruno</a></p>
+	</section>
+
+	<section>
+		<figure>
+			<img src="img/logo.jpg" class="imgredonda">
+		</figure>
+	</section>
+
+	<div class="derechos">
+		<p><i class="fa fa-paw" aria-hidden="true"></i> Todos los derechos reservados Hotel Perruno C.V. © 2017</p>
+	</div>
+</footer>	
 </body>
 </html>

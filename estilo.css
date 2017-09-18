@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Kurale|Libre+Franklin|Marcellus+SC');
 /*INICIO DEL HEADER*/
 *{
   border: 0;
@@ -6,33 +7,125 @@
   padding: 0;
 }
 header{
-  background: #F4A460;
-  height: 10%;
+  background: -webkit-radial-gradient(center, circle, #fe9a2e, #ff8000);
+  background: -moz-radial-gradient(center,circle,#fe9a2e, #ff8000);
   width: 100%;
+  height: 150px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
-/*DIVS DEL MENU*/
-.logo{
-  width: 15%;
-  height: 10%;
-  display: flex;
+.barra{
+  width: 100%;
+  background: gray;
 }
-.menu{
-  width: 60%;
-  height: 10%;
+/*DIVS DEL MENU*/
+.identifica{
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
-div ul{
+.datos{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.iconos{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.8em;
+}
+.logo{
+  width: auto;
+  height: 95%;
+}
+.nombre{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: 'Marcellus SC', serif;
+  font-size: 2.5em;
+}
+.slogan{
+  width: 100%;
+  height: 20%
+  display: flex;
+  align-items: center;
+  font-family: 'Kurale', serif;
+  font-size: 1.4em;
+}
+.direccion{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-family: 'kurale', cursive;
+}
+.barramenu{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Libre Franklin', serif;
+  background: #f7be81;
+}
+/*div ul{
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  font-size: 220%;
+  font-family: monospace;
 }
-.iconomenu{
-  width: 65%;
-
+nav li a{
+  color:#000;
+  text-decoration:none;
+    margin-right: 20px;
+}
+nav li a:hover{
+  font-weight: bold;
+}*/
+.menu ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu a{
+  display: block;
+  color: black;
+  padding-left: 1em;
+  font-size: 150%;
+  text-decoration: none;
+  background: #f7be81;
+}
+.menu a:hover{
+  font-size: 160%;
+  font-weight: bold;
+  color: darkslateblue;
+}
+.menu ul li ul{
+  display: none;
+}
+.menu ul li a:hover + ul,
+.menu ul li ul:hover{
+  display: block;
+  position: absolute;
+  min-width: 10%;
+}
+.imgmenu{
+	height: 80%;
+	width: auto;
+	border-radius: 50%;
 }
 .login{
   width: 20%;
@@ -45,6 +138,9 @@ div ul{
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
+}
+.original{
+  white-space: pre;
 }
 /* FIN DE HEADER */
 /* Margen*/

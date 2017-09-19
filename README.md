@@ -3,7 +3,7 @@
 Desarrolladores
 Loera Perez Lizette Odemaris
 Solis Flores José Asunción
-
+Plascencia Reyes Miguel Angel
 Descripción del proyecto
 
 "Hotel Perruno" es una pagina donde podra reservar habitaciones para alogar a su mejor amigo en un lugar con excelentes intalaciones y servicios, ademas podra ver en el transcurso del dia fotos de su perro para que este tranquilo. "Hotel Perruno" utilizara html, css, php, javascript, mysql.
@@ -24,4 +24,5 @@ operaciones como modificar y eliminar
 Funciones adicionales
 Se cuenta con un sección de contacto en el cual los usuarios registrados y no registrados podrán ponerse en contacto con "Hotel Perruno"
 Demo
-http://
+https://hotelperruno.000webhostapp.com
+

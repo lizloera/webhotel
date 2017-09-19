@@ -246,6 +246,7 @@ footer section{
   font-size: 13.5px;
   color: #FAFAFA;
  flex: 1 1 auto;
+
 }
 .unete{
   font-family: Arial, Helvetica;
@@ -270,7 +271,6 @@ a {
   border-radius: 50%;
 }
 .derechos{
-
   justify-content: space-around;
   border-radius: 5px;
   font-family: Arial, Helvetica;

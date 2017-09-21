@@ -181,5 +181,10 @@ a {
 }
 /* FIN DEL FOOTER */
 /*INICIO ESTILO UBICACION*/
-
+.mapa{
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /*FIN ESTILO UBICACION*/

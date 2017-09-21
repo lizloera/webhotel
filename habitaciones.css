@@ -181,5 +181,35 @@ a {
 }
 /* FIN DEL FOOTER */
 /*INICIO ESTILO HABITACIONES*/
+.galeria{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FBEFEF;
+}
+.estiloh1{
+  text-align: center;
+  font-family: 'Kurale', serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #FF0040;
+}
+.estilop{
+  font-family: 'Kurale', serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: black;
+}
+img.mediana{
+  width: 20%;
+  height: 30%;
+  margin: 2%;
+  }
+  .titulo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #FF0040;
 
+  }
 /*FIN ESTILO HABITACIONES*/

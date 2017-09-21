@@ -1,89 +1,5 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Kurale|Libre+Franklin|Marcellus+SC');
-html{
-  font-size: 16px;
-  font-family: fantasy;
-}
-
-.container{
-  max-width: 450px;
-  height: auto;background-color: #EFEFEF;
-  margin: 5% auto;
-  padding-bottom: 1rem;
-}
-
-.formTop{
-  width: 100%;
-  text-align: center;
-  padding: 2rem 0 1rem;
-  border-top: solid .4rem #F39B53;
-  margin-bottom: 1rem;
-}
-
-.formTop h2{
-  font-weight: bold;
-  color: #CAC8C8;
-  font-size: 18px;
-}
-
-h2 span{
-  color: #F39B53;
-}
-
-/* SE DEJA COMO COMENTARIO
-a{
-  margin-top: 3px;
-  font-size: 12px;
-  font-family: fantasy;
-}
-
-a:hover{
-  background-color: lightgray;
-}*/
-.formReg{
-    padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-.btonForm{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1rem;
-}
-
-.input, .btonSubmit, .btonReset{
-  background-color: #EFEFEF;
-  padding: .5rem;
-  margin: .5rem 0;
-  border: none;
-  border-bottom: solid #C8C8C8 .2rem;
-  transition: all .5%;
-}
-
-.input:focus{
-  border-bottom: solid #F39B53 .2rem;
-}
-
-.btonSubmit, .btonReset{
-  width: 40%;
-  border-bottom: none;
-  background-color: #31B1E5;
-  color: white;
-}
-
-.btonReset{
-  background-color: #EDA135;
-}
-.btonSubmit:hover{
-  background-color: #4C9ED9;
-}
-
-.btonReset:hover{
-  background-color: #FA9535;
-}
-
 /*INICIO DEL HEADER*/
 *{
   border: 0;
@@ -186,7 +102,7 @@ header{
 }
 .imgmenu{
   margin-left: 60%;
-	border-radius: 50%;
+  border-radius: 50%;
   height: 100%;
   width: 40%;
 }
@@ -194,8 +110,48 @@ header{
   white-space: pre;
 }
 /* FIN DE HEADER */
-/* INICIO DEL FOOTER */
-.pie{
+.secciones{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section{
+  width: 65%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #FBEFEF;	
+}
+.estiloh2{
+  text-align: center;
+  font-family: 'Kurale', serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #FF0040;
+
+}
+.estiloletra{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.estiloh1{
+	font-family: 'Marcellus SC', serif;
+	font-size: 40px;
+}
+/*footer*/
+ .pie{
   width: 100%;
   height: 10%;
   display: flex;
@@ -247,7 +203,7 @@ footer section{
 footer p{
   line-height: 1.8;
 }
-a {
+a { 
   color: white;
   text-decoration: none;
 }

@@ -2,9 +2,8 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Hotel Perruno</title>
-	<link rel="stylesheet" href="reservaciones.css"/>
+	<title>Nosotros</title>
+	<link rel="stylesheet" href="nosotros.css"/>
 	<script src="https://use.fontawesome.com/9fe2ae10ca.js"></script>
 </head>
 <body>
@@ -33,15 +32,15 @@
 			<nav class="menu">
 				<ul>
 					<li><a href="nosotros.html"><span>NOSOTROS</span></li>
-					<li><a href="galeria.html"><span>GALERIA</span></li></a>
-					<li><a href="#"><span>HABITACIONES</span></a>
+					<li><a href="galeria.html"><span>GALERIA</span></li>
+					<li><span>HABITACIONES</span>
 							<ul>
 								<li><a href="habitaciones.html"><span>CONOCELAS</span></a></li>
 								<li><a href="reservaciones.html"><span>RESERVA</span></a></li>
 							</ul>
 					</li>
-					<li><a href="ubicacion.html"><span>UBICACION</span></li></a>
-					<li><a href="#"><span>MIEMBROS</span></a>
+					<li><a href="ubicacion.html"><span>UBICACION</span></li>
+					<li><span>MIEMBROS</span>
 						<ul>
 							<li><a href="indexForm.html"><span>Registro</span></a></li>
 							<li><a href="formslog.html"><span>Identifícate</span></a></li>
@@ -51,45 +50,39 @@
 			</nav>
 		</div>
   </header>
-
-	<!--SECCION PRINCIPAL-->
-	<div class="container">
-		<figure>
-			<h2>Reserva una habitación</h2>
-			<img src="img/perro_calendar.jpg" alt="perro de calendario" class="imgredonda">
-		</figure>
-		<div class="formtop">
-			<h2>Por favor, llena el siguiente formulario para verificar disponibilidad: </h2>
-		</div>
-		<div class="formulario">
-			<form class="reservar" action="habitaciones.html" method="get">
-				<div class="fechas">
-					<span>Fecha de ingreso: </span>
-					<input type="date" name="fechaInicio" placeholder="dd/mm/aaaa" required autofocus>
-					<span>Fecha de salida: </span>
-					<input type="date" name="fechaFin" placeholder="dd/mm/aaaa" required >
-					<span>Número de húespedes: </span>
-					<input type="number" name="numeroMascotas" value="0" required>
-				</div>
-				<div class="habitacion">
-					<span>Habitación bronce </span>
-					<input type="checkbox" name="bronze" value="Habitación bronce">
-					<span>Habitación oro </span>
-					<input type="checkbox" name="gold" value="Habitación Oro">
-					<span>Habitación platinium </span>
-					<input type="checkbox" name="platinium" value="Habitación Platinium">
-				</div>
-				<div class="btonform">
-					<input class="btonSubmit" type="submit" value="VERIFICA">
-					<input class="btonReset" type="reset" value="LIMPIAR">
-				</div>
-			</form>
-		</div>
+<main>
+	<div class="banner">
+		<img src="img/p6.png">
+		<h1 class="estiloh1">Descubra nuestra...</h1>
 	</div>
-	<footer class="pie">
+	<div class="secciones">
+		<section>
+			<h2 class="estiloh2">Misión</h2>
+			<p class="estiloletra">Conseguir la entera satisfacción del cliente ofreciendo servicios de entrenamiento, pensión y cuidado diario de gran calidad, con elevados niveles de seguridad y adecuado manejo de higiene para su mejor amigo</p>
+		</section>
+
+		<section>
+			<h2 class="estiloh2">Visión</h2>
+			<p class="estiloletra">Ser el proveedor de experiencias positivas y óptimos recursos prácticos que logren mejorar la estancia de su perro en nuestras instalaciones durante sua ausencia. Consideramos que este enfoque es la unica manera de lograr ser, y prevalecer, cómo uno de los hoteles para perros con mayor reconocimiento en México.</p>
+		</section>
+
+		<section>
+			<h2 class="estiloh2"> Valores</h2>
+			<ul class="estiloletra">
+				<li>Trabajo en equipo: Contamos con un personal que se complementa entre si para alcanzar los objetivos de la empresa de manera responsable a través de la cooperación y el compromiso.</li>
+
+				<li>Responsabilidad: Asumimos que nuestras acciones deben servir al interés de la sociedad. Sobre todo, ponemos el máximo interés en que nuestros servicios provean la seguridad del usuario, el uso responsable de los recursos y la sustentabilidad del medio ambiente.</li>
+
+				<li>Honestidad: Vemos la honestidad mutua como una condición para nuestro éxito empresarial cuando tratamos con colaboradores o partners de negocio.</li>
+
+				<li>Compromiso: Entregamos nuestro mejor esfuerzo en el logro de los objetivos de la empresa y la satisfacción del cliente, a través de la responsabilidad y la lealtad en nuestras relaciones con los compañeros, clientes y proveedores.</li>
+		</section>
+	</div>
+</main>
+<footer class="pie">
 	<section class="descubre">
 		 <h3 class="estiloh3">Descubre</h3>
-		 	<p>Si tienes que salir unos días de la ciudad y no sabes con quién dejar a tu perro, te ofrecemos el servicio de Alojamiento.
+		 	<p>Si tienes que salir unos días de la ciudad y no sabes con quién dejar a tu perro, te ofrecemos el servicio de Alojamiento. 
 			 Ofreciendo un servicio cálido y familiar.</p>
 		 <ul>
 			 <li><a href="nosotros.html">Nosotros</a></li>
@@ -123,6 +116,6 @@
 	<div class="derechos">
 		<p><i class="fa fa-paw" aria-hidden="true"></i> Todos los derechos reservados Hotel Perruno S.A. de C.V. © 2017</p>
 	</div>
-</footer>
+</footer>	
 </body>
 </html>

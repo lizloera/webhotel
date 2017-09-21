@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Kurale|Libre+Franklin|Marcellus+SC');
+/*INICIO DEL HEADER*/
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: -webkit-radial-gradient(center, circle, #fe9a2e, #ff8000);
+  background: -moz-radial-gradient(center,circle,#fe9a2e, #ff8000);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/*DIVS DEL MENU*/
+.identifica{
+  /*Identifica guarda datos y logo horizontalmente*/
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.datos{
+  /*Datos guarda el nombre, slogan y direccion verticalmente*/
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.nombre{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: 'Marcellus SC', serif;
+  font-size: 2.5em;
+}
+.slogan{
+  width: 100%;
+  height: 20%
+  display: flex;
+  align-items: center;
+  font-family: 'Kurale', serif;
+  font-size: 1.4em;
+}
+.direccion{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-family: 'kurale', cursive;
+}
+.barramenu{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Libre Franklin', serif;
+  background: #f7be81;
+}
+.menu ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu a{
+  display: block;
+  color: black;
+  padding-left: 1em;
+  font-size: 150%;
+  text-decoration: none;
+  background: #f7be81;
+}
+.menu a:hover{
+  font-size: 160%;
+  font-weight: bold;
+  color: darkslateblue;
+}
+.menu ul li ul{
+  display: none;
+}
+.menu ul li a:hover + ul,
+.menu ul li ul:hover{
+  display: block;
+  position: absolute;
+  min-width: 10%;
+}
+.imgmenu{
+  margin-left: 60%;
+  border-radius: 50%;
+  height: 100%;
+  width: 40%;
+}
+.original{
+  white-space: pre;
+}
+/* FIN DE HEADER */
+.galeria{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FBEFEF;
+  height: 100%
+}
+.estiloh1{
+  text-align: center;
+  font-family: 'Kurale', serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #FF0040;
+}
+img.mediana{
+  width: 20%;
+  height: 30%;
+  margin: 2%;
+}
+  .titulo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #FF0040;
+}

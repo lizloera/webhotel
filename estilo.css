@@ -225,3 +225,113 @@ footer #unete h3{
 	background: -webkit-radial-gradient(center, circle, #FE9A2E, #FF8000);
 }
 }
+/* Margen*/
+.imagen{
+  float: left;
+  width: 300px;
+  border:5px solid #000;
+  padding:10px;
+  margin:5px;
+}
+.styleH1{
+  float: none;
+  color: gray;
+  font-family: "fantasy", "Arial";
+}
+.styleP{
+  font-family: "sans-serif", "Times New Roman";
+}
+.boton{
+  text-decoration: none;
+  padding: 8px;
+  font-weight: 200;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+  float: inherit;
+  width: 20%;
+  text-align: center;
+  margin-right: 3%;
+}
+.boton:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+
+
+/*footer*/
+ .pie{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: 5px 5px 5px #000;
+    -moz-box-shadow: 5px 5px 5px #000;
+    -webkit-box-shadow: 5px 5px 5px #000;
+  border-radius: 5px;
+    -moz-border-radius: 5px;
+  background: -webkit-radial-gradient(center, circle, #FA5882, #FE2E64);
+  background: -moz-radial-gradient(center, circle, #FA5882, #FE2E64);
+}
+footer section {
+  width: 16%;
+  padding: 10px;
+}
+.descubre{
+  font-family: Arial, Helvetica;
+  font-size: 13px;
+  color: #FAFAFA;
+  text-align: justify;
+  line-height: 20px;
+  flex: 1 1 auto;
+}
+.ubi{
+  font-family: Arial, Helvetica;
+  font-size: 13px;
+  color: #FAFAFA;
+  text-align: justify;
+  line-height: 20px;
+  flex: 1 1 auto;
+}
+.aten{
+  font-family: Arial, Helvetica;
+  font-size: 13.5px;
+  color: #FAFAFA;
+  text-align: justify;
+  line-height: 20px;
+  flex: 1 1 auto;
+}
+.unete{
+  font-family: Arial, Helvetica;
+  font-size: 13px;
+  color: #FAFAFA;
+  text-align: justify;
+  line-height: 20px;
+  flex: 1 1 auto;
+}
+.estiloh3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+footer p{
+  line-height: 1.8;
+}
+a { 
+  color: white;
+}
+.imgredonda{
+  width: 100%;
+  border-radius: 50%;
+}
+.derechos{
+  justify-content: space-around;
+  border-radius: 5px;
+  font-family: Arial, Helvetica;
+  background: -webkit-radial-gradient(center, circle, #FE9A2E, #FF8000);
+  background: -moz-radial-gradient(center, circle, #FE9A2E, #FF8000);
+  flex: 1 1 auto;
+}

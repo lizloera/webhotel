@@ -1,0 +1,235 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Kurale|Libre+Franklin|Marcellus+SC');
+/*INICIO DEL HEADER*/
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: -webkit-radial-gradient(center, circle, #fe9a2e, #ff8000);
+  background: -moz-radial-gradient(center,circle,#fe9a2e, #ff8000);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/*DIVS DEL MENU*/
+.identifica{
+  /*Identifica guarda datos y logo horizontalmente*/
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.datos{
+  /*Datos guarda el nombre, slogan y direccion verticalmente*/
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.nombre{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: 'Marcellus SC', serif;
+  font-size: 2.5em;
+}
+.slogan{
+  width: 100%;
+  height: 20%
+  display: flex;
+  align-items: center;
+  font-family: 'Kurale', serif;
+  font-size: 1.4em;
+}
+.direccion{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-family: 'kurale', cursive;
+}
+.barramenu{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Libre Franklin', serif;
+  background: #f7be81;
+}
+.menu ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu a{
+  display: block;
+  color: black;
+  padding-left: 1em;
+  font-size: 150%;
+  text-decoration: none;
+  background: #f7be81;
+}
+.menu a:hover{
+  font-size: 160%;
+  font-weight: bold;
+  color: darkslateblue;
+}
+.menu ul li ul{
+  display: none;
+}
+.menu ul li a:hover + ul,
+.menu ul li ul:hover{
+  display: block;
+  position: absolute;
+  min-width: 10%;
+}
+.imgmenu{
+  margin-left: 60%;
+  border-radius: 50%;
+  height: 100%;
+  width: 40%;
+}
+.original{
+  white-space: pre;
+}
+/* FIN DE HEADER */
+.contenedor{
+  padding: 0.5%;
+	display: flex;
+	flex-direction: row;
+	height: 90vh;
+}
+.lateral{
+	width: 100%
+	background-color: white;
+	text-align: center;
+}
+.contenido{
+	padding: 20px;
+	width: 100%;
+	align-items: center;
+	background-color: #FBEFEF;
+}
+.imgredonda{
+  width: 30%;
+  border-radius: 50%;
+}
+.letrakurale{
+  font-family: 'Kurale', serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #FF0040;
+}
+.letramarcesc{
+  font-family: 'Marcellus SC', serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 6px #E6E6E6;
+}
+.letrafrank{
+  font-family: 'Libre Franklin', sans-serif;
+ line-height: 3;
+  font-size: 18px;
+  color: #424242;
+  flex: 1 1 auto;
+}
+.lateral ul{
+	list-style: none;
+}
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-inner {
+  padding: 0 8px;
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li p {
+  margin: 0;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+  padding: 15px;
+  border: none;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+.flex-inner li {
+  width: 100px;
+}

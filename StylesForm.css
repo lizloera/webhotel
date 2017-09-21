@@ -28,6 +28,16 @@ h2 span{
   color: #F39B53;
 }
 
+a{
+  margin-top: 3px;
+  font-size: 12px;
+  font-family: fantasy;
+}
+
+a:hover{
+  background-color: lightgray;
+}
+
 .formReg{
     padding: 0 2rem;
     display: flex;

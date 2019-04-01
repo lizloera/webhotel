@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Nosotros</title>
-	<link rel="stylesheet" href="css/nosotros.css"/>
+	<link rel="stylesheet" href="css/registro.css"/>
 	<script src="https://use.fontawesome.com/9fe2ae10ca.js"></script>
 </head>
 <body>
@@ -53,31 +53,24 @@
 <main>
 	<div class="banner">
 		<img src="img/p6.png">
-		<h1 class="estiloh1">Descubra nuestra...</h1>
 	</div>
-	<div class="secciones">
-		<section>
-			<h2 class="estiloh2">Misión</h2>
-			<p class="estiloletra">Conseguir la entera satisfacción del cliente ofreciendo servicios de entrenamiento, pensión y cuidado diario de gran calidad, con elevados niveles de seguridad y adecuado manejo de higiene para su mejor amigo</p>
-		</section>
 
-		<section>
-			<h2 class="estiloh2">Visión</h2>
-			<p class="estiloletra">Ser el proveedor de experiencias positivas y óptimos recursos prácticos que logren mejorar la estancia de su perro en nuestras instalaciones durante sua ausencia. Consideramos que este enfoque es la unica manera de lograr ser, y prevalecer, cómo uno de los hoteles para perros con mayor reconocimiento en México.</p>
-		</section>
+	<form action="">
+		<h2 class="estiloh1"> REGISTRO </h2>
+		<p><label for="name">Nombre</label></p>
+		<input type="text" class="style" id="nombre" placeholder="Nombre" required>
 
-		<section>
-			<h2 class="estiloh2"> Valores</h2>
-			<ul class="estiloletra">
-				<li>Trabajo en equipo: Contamos con un personal que se complementa entre si para alcanzar los objetivos de la empresa de manera responsable a través de la cooperación y el compromiso.</li>
+		<p><label for="raza">Email</label></p>
+		<input type="email" class="style" id="raza" placeholder="Email" required>
 
-				<li>Responsabilidad: Asumimos que nuestras acciones deben servir al interés de la sociedad. Sobre todo, ponemos el máximo interés en que nuestros servicios provean la seguridad del usuario, el uso responsable de los recursos y la sustentabilidad del medio ambiente.</li>
+		<p><label for="tel">Telefono</label></p>
+		<input type="tel" class="style" id="tel" placeholder="Telefono" required>
 
-				<li>Honestidad: Vemos la honestidad mutua como una condición para nuestro éxito empresarial cuando tratamos con colaboradores o partners de negocio.</li>
+		<p><label for="pass">Password</label></p>
+		<input type="password" class="style" id="pass" placeholder="Password" required>
 
-				<li>Compromiso: Entregamos nuestro mejor esfuerzo en el logro de los objetivos de la empresa y la satisfacción del cliente, a través de la responsabilidad y la lealtad en nuestras relaciones con los compañeros, clientes y proveedores.</li>
-		</section>
-	</div>
+		<p class="center"><button type="submit" class="btn">Enviar</button></p>
+	</form>
 </main>
 <footer class="pie">
 	<section class="descubre">
